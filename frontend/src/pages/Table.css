@@ -1,0 +1,120 @@
+.table_image{
+    width: 100%;
+    height: 100%;
+}
+.player_entry{
+    color: white;
+}
+.pool_money{
+    color: white;
+    position: absolute;
+    left: 50%;
+}
+.players_list {
+    position: absolute;
+    top: 10%; /* Adjust to place names in the correct vertical position */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Display player names in rows */
+    align-items: center; /* Center the names horizontally */
+    background-color: transparent;
+    padding: 10px;
+    
+  }
+  p{
+    background-color: transparent;
+  }
+.movesbg{
+    width: 100%; /* Ensure the image fits the container */
+  height: 100%; /* Optional: Stretch to fit */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+html, body {
+    margin: 0;             /* Remove default margin */
+    padding: 0;            /* Remove default padding */
+    width: 100%;           /* Ensure full width of the viewport */
+    height: 100%;          /* Ensure full height of the viewport */
+    overflow: hidden;      /* Prevent both horizontal and vertical scrolling */
+    box-sizing: border-box; /* Include padding and border in dimensions */
+}
+
+.table_container{
+    color: black;
+    width: 100vw;
+    height: 80vh;
+    padding: 24px;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 20vh;
+}
+.moves_block {
+    display: flex;
+    justify-content: space-between; /* Space the boxes out evenly */
+    position: absolute; /* Position the content over the image */
+    top: 80%; /* Center vertically */
+    left: 0;
+    right: 0;
+    height: 20%;
+    background-color: transparent;
+  }
+.moves_block div{
+  width: 33.33%; /* Each div takes up 1/3 of the container width */
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6); /* Optional: background color */
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.second_section{
+    padding: 0px;
+    display: flex;
+    flex-direction: column; /* Stack the text elements vertically */
+    justify-content: space-evenly; /* Evenly space the text elements */
+    height: 100%; /* Take full height of the container */
+    padding: 0px;
+    width: 100%;
+}
+
+.moves_block text{
+   margin: 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.moves_block button{
+    width:85%;
+    height: 34%;
+    border-radius: 10px;
+    color: #FCF7BD;
+    font-size: medium;
+    background-color: black;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.50);
+    margin: 15px;
+    
+}
+.start{
+    width:35%;
+    height: 34%;
+    border-radius: 10px;
+    color: #FCF7BD;
+    font-size: medium;
+    background-color: black;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.50);
+    margin: 15px;
+}
+.moves_block text{
+    color: rgb(1, 1, 1);
+}
+.moves_block div{
+    display: flex;
+    flex-direction: column;
+}
+
+

@@ -1,0 +1,73 @@
+* {
+    margin: 0;           /* Remove margin from all elements */
+    padding: 0;          /* Remove padding from all elements */
+    box-sizing: border-box;  /* Include padding and border in element's total width and height */
+    background-color: #1B1E1E;
+  }
+.create_body_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.create_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEC01;
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    margin: 30px;
+}
+.create_button{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    color: #FCF7BD;
+    font-size: medium;
+    background-color: black;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.50); 
+}
+.join_block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFEC01;
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+}
+.join_button{
+    width: 60%;
+    height: 34%;
+    border-radius: 10px;
+    color: #FCF7BD;
+    font-size: medium;
+    background-color: black;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.50);
+    margin-bottom: 8px;
+}
+#input_code{
+    background-color: #D9D9D9;
+    border-color:  #D9D9D9;
+    padding-left: 4px;
+    margin: 15px;
+    height: 35px;
+}
+input::placeholder{
+    color: #aaa8a8;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* Remove spin buttons in WebKit browsers */
+  margin: 0;                /* Prevent unwanted margins */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Remove spin buttons in Firefox */
+}

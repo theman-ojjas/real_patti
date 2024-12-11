@@ -1,0 +1,44 @@
+.setting_block{
+    background-color: #FFEC01;
+    width: 87vw;
+    height: 54vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    margin:40vw;
+}
+text{
+    background-color:transparent;
+    color: black;
+    margin-top: 5px;
+    font-size: x-large;
+    font-weight:400;
+    margin-bottom: 30px;
+    
+}
+.setting_block div{
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    width: 80%;
+    font-size: large;
+    margin: 9px;
+}
+.setting_block div input{
+    background-color: white;
+    height: 38px;
+    padding-left: 4px;
+    border-color: transparent;
+    margin: 3px;
+}
+input::placeholder{
+    color: #9d9d9d69;
+}
+#margin_cb{
+    margin: 20px;
+}
+
+
+ 
