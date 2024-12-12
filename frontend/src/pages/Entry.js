@@ -15,7 +15,7 @@ const enterUser=()=>{
   if(userName.trim()){
     const socket=getSocket();
     socket.emit("userName",userName);
-    navigate('/table');
+    navigate('/Create_Join_Table');
   
   }
 }

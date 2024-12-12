@@ -5,6 +5,40 @@
 .player_entry{
     color: white;
 }
+
+.disabledSeeButton{
+   color: #00c642;
+   background-color: rgb(240, 240, 240);
+   border-radius: 10px;
+   width:50%;
+   height: 20%;
+   position: relative;
+   left: 25%;
+   padding-top: 6px;
+   
+}
+.gift{
+    background-color: rgb(232, 95, 99);
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.giftInput{
+    background-color: white;
+    width: 40px;
+    margin-left: 10px;
+    padding-left: 2px;
+}
+
+.giftInputBlock{
+    background-color: wheat;
+}
+
+.giftDone{
+    background-color: rgb(232, 95, 99);
+}
+
 .pool_money{
     color: white;
     position: absolute;
@@ -25,6 +59,28 @@
   }
   p{
     background-color: transparent;
+  }
+  label{
+    background-color: transparent;
+    display: flex;
+  }
+  #checkbox{
+    margin-left:10px;
+  }
+  li{
+    background-color: transparent;
+  }
+  ul{
+    background-color: transparent;
+    display: flex;
+    
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Display player names in rows */
+    align-items: center; /* Center the names horizontally */
+    background-color: transparent;
+    padding: 10px;
   }
 .movesbg{
     width: 100%; /* Ensure the image fits the container */
@@ -64,7 +120,7 @@ html, body {
   }
 .moves_block div{
   width: 33.33%; /* Each div takes up 1/3 of the container width */
-  padding: 10px;
+  
   background-color: rgba(0, 0, 0, 0.6); /* Optional: background color */
   color: white;
   text-align: center;
@@ -79,6 +135,18 @@ html, body {
     height: 100%; /* Take full height of the container */
     padding: 0px;
     width: 100%;
+}
+.condDiv{
+    position: absolute;
+    top: 6%; /* Adjust to place names in the correct vertical position */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Display player names in rows */
+    align-items: center; /* Center the names horizontally */
+    background-color: transparent;
+    padding: 10px;
 }
 
 .moves_block text{
@@ -97,7 +165,6 @@ html, body {
     background-color: black;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.50);
     margin: 15px;
-    
 }
 .start{
     width:35%;
@@ -118,3 +185,12 @@ html, body {
 }
 
 
+#seeButton{
+    background-color: #00c642;
+    border-color: aliceblue;
+    width: 55%;
+    height: 23%;
+    
+    position: relative;
+    left: 14%;
+}

@@ -8,7 +8,7 @@ function Create_Join_Table(){
       navigate('/table_setting');
     }
     const goToTable=()=>{
-        navigate('/table');
+        navigate('/game_table');
       }
     return(
         <div className="create_body_block">
