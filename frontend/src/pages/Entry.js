@@ -41,8 +41,11 @@ const enterUser=()=>{
         <button class="enter_button_class" onClick={enterUser}>
               <img src="/images/enter_button.png" alt="Enter Button" class="enter_button" />
          </button>
-
       </div>
+      <div className='credit_block'>
+      <text id='credit'>Credit-</text>
+      <text id='ojjas'>Ojjas</text>
+      </div>  
     </div>
   );
 }
