@@ -57,12 +57,22 @@
     padding: 10px;
     
   }
+  
   p{
     background-color: transparent;
+    
+  }
+  #tp{
+    margin-right: 20px;
+    font-size:large;
+  }
+  #checkbox{
+    transform: scale(1.4);
   }
   label{
     background-color: transparent;
     display: flex;
+    margin: 8px;
   }
   #checkbox{
     margin-left:10px;

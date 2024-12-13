@@ -165,7 +165,7 @@ function Table(){
                     {players.map((player) => (
                         <li key={player.id}>
                         <label>
-                            <p> {player.userName}: {player.money}</p>
+                            <p id="tp"> {player.userName}: {player.money}</p>
                             {/* The checkbox after the player name */}
                             <input
                             type="checkbox"
@@ -184,7 +184,7 @@ function Table(){
                     {players.map((player) => (
     <li key={player.id}>
         <label>
-            <p>{player.userName}: {player.money}</p>
+            <p id="tp">{player.userName}: {player.money}</p>
             {activePlayerId === player.id ? (
                 <div className="giftInputBlock">
                     <input
@@ -219,7 +219,7 @@ function Table(){
                     {players.map((player) => (
                         <li key={player.id}>
                         <label>
-                            <p> {player.userName}: {player.money}</p>  
+                            <p id="tp"> {player.userName}: {player.money}</p>  
                         </label>
                         </li>
                     ))}
