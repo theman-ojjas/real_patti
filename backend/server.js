@@ -164,6 +164,7 @@ let maxBetValue=10000000;
     socket.on("tableSetting",(value)=>{
       blindBet=Number(value.bootAmount);
       defaultMoney=Number(value.initialValue);
+      bootAmount=blindBet;
       const value2={bootAmount,defaultMoney};
       
       playerHistory.forEach((player) => {
