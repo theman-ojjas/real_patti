@@ -194,4 +194,5 @@ let maxBetValue=10000000;
     io.emit("playerHistory",playerHistory);
   });
 
-  server.listen(9000, () => console.log("Server started on PORT 9000"));
+  const PORT = process.env.PORT || 9000; // Use PORT from environment or default to 9000
+server.listen(PORT, () => console.log(`Server started on PORT ${PORT}`));
