@@ -4,7 +4,7 @@ let socket;
 
 export const getSocket = () => {
     if (!socket) {
-        socket = io("https://real-patti.onrender.com/");
+        socket = io("https://real-patti.onrender.com");
     }
     return socket;
 };
